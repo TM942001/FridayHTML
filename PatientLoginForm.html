@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<style>
+    h2 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        color: rgb(248, 246, 242);
+        padding: 12px 20px;
+        box-sizing: border-box;
+        display: block;
+    }
+
+    #PLFButton {
+        background-color: #4CAF50;
+        /* Green */
+        border: none;
+        /*button border*/
+        color: rgb(245, 237, 237);
+        /*text color*/
+        padding: 8px 15px;
+        /*topbottom and leftright size increase*/
+        text-align: center;
+        /*Text Format*/
+        text-decoration: none;
+        /*Text Decor*/
+
+        font-size: 20px;
+        /*Text Size*/
+
+        cursor: pointer;
+        /*Use to Cursor logo*/
+    }
+
+    #Login {
+        /*Margin Used For Outer BOX*/
+        background-color: crimson;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 600px;
+        margin-left: 600px;
+
+        /*Margin Used For Inner BOX*/
+        padding-top: 50px;
+        padding-right: 80px;
+        padding-bottom: 50px;
+        padding-left: 80px;
+
+    }
+</style>
+
+<body bgcolor="cyan">
+    <div id="Login">
+        <center>
+            <h2>Patient Login Form</h2>
+            <label>Username:</label>
+            <input type="text" name="username" placeholder="Enter Your Username Here!"><br><br>
+            <label>Password:</label>
+            <input type="password" name="username" maxlength="8" placeholder="Enter Your Password Here!"><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear"><br><br>
+            <a href="Index.html" id="PLFButton">Back</a>
+        </center>
+    </div>
+</body>
+
+</html>

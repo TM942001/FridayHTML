@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+</head>
+
+
+
+<body>
+    document.write(Math.trunc(0.844)+"</br>")
+
+
+    <script>
+    //Simple javascript Program
+    var a = 10;
+    var b = 20;
+    var c = a + b;
+
+    document.writeln("Addition Is:" + c);
+
+    // //String
+    // var str = "javascript";
+    // var str1 = new String("css");
+
+    // document.writeln(str + str1 + "</br>");
+    // document.writeln(str1.Uppercase() + "</br>");//For uppercase letters
+    // document.writeln(str.slice(2, 5) + "</br>");//
+    // document.writeln(str.valueOf() + "</br>");
+    // document.writeln(str.toString() + "</br>");
+    // document.writeln(str.search("script") + "</br>");
+    // document.writeln(str.substring(0, 4) + "</br>");
+
+
+    //Date Object
+    var date = new Date();
+    document.writeln(date.getDay());//sunday represents 0
+
+    document.write("DATE :"+date.getDate()+"</br>");
+    document.write("DATE :"+date.getHours()+"</br>");
+    document.write("DATE :"+date.getMonth()+"</br>");
+    document.write("DATE :"+date.getFullYear()+"</br>");
+    document.write("DATE :"+date.getUTCFullYear()+"</br>");
+   
+
+    var date1 = new Date("August 11,2014 20:22:10");
+    document.write(" DATE :"+date1.getDate()+"</br>");
+
+
+    //Math Object
+    document.write(Math.abs(-4)+"<br>");
+    document.write(Math.ceil(7.5)+"</br>");
+    document.write(Math.ceil(3.2)+"</br>");
+    document.writeln(Math.floor(7.5)+"</br>");
+    document.write(Math.random());
+    document.writeln(Math.max(234,423)+"</br>");
+    document.write(Math.trunc(12.6777777)+"</br>");
+    document.write(Math.trunc(0.844)+"</br>")
+
+
+    //Number Ojects
+
+    var x=-23;
+    var y=80;
+
+    document.write(Number.isFinite(x)+"</br>");
+    document.write(Number.isFinite(x/y)+"</br>");
+    document.write(Number.isInteger(58.254)+"</br>");
+    document.write(Number.parseInt(78.25)+"</br>");
+    document.write(Number.parseFloat(458)+"</br>");
+
+
+    var xz="welcome";
+    document.write(Number.parseFloat(xz)+"</br>");
+
+    var i="40.25 string";
+    document.write(Number.parseFloat(i)+"</br>");
+
+    var a = 54.2544;
+    document.write(a.toFixed(2)+"</br>");
+    document.write(x.toString()+"</br>");
+    document.writeln(a+x);
+
+    document.write(10<50);
+    
+
+
+
+</script>
+</body>
+</html>

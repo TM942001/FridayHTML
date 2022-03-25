@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor OPD Schedule</title>
+</head>
+<style>
+    #table {
+        height: 500px;
+        width: 1000px;
+        background-color: bisque;
+        border-radius: 10px;
+        border-collapse: collapse;
+        font-family: 'Courier New', Courier, monospace;
+        text-decoration: slateblue;
+        text-decoration-color: crimson;
+    }
+    #Back{
+        background-color: #4CAF50; /* Green */
+  border: none;/*button border*/
+  color: rgb(245, 237, 237);/*text color*/
+  padding: 12px 45px;/*topbottom and leftright size increase*/
+  text-align: center;/*Text Format*/
+  text-decoration: none;/*Text Decor*/
+  
+  font-size: 20px;/*Text Size*/
+  
+  cursor:pointer;/*Use to Cursor logo*/
+
+    }
+</style>
+
+<body bgcolor=#C0C0C0>
+    <center>
+
+       
+        <br>
+        <h2 style="color: crimson;font-size: 40px;">OPD Schedule</h2>
+        <br>
+
+        <table id="table" border="2" width="500" height="400" />
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="3">Medicover Schedule</th>
+        </tr>
+
+        <tr>
+            <th colspan="2">OPD</th>
+            <th rowspan="2">Specialization</th>
+        </tr>
+
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2" bgcolor="pink">8 AM</td>
+            <td rowspan="2" bgcolor="yellow">5 PM</td>
+            <td>Heart Specialist</td>
+        </tr>
+        <tr>
+            <td>Kidney Specialist</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td bgcolor="pink">8 AM</td>
+            <td bgcolor="pink">11 AM</td>
+            <td>Brain Specialist</td>
+        </tr>
+        <tr>
+            <td bgcolor="yellow">2PM</td>
+            <td bgcolor="yellow">5PM</td>
+            <td rowspan="2">ENT Surgen</td>
+
+
+        </tr>
+        <tr>
+            <td>2PM</td>
+            <td bgcolor="pink">11PM</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td bgcolor="pink">8AM</td>
+            <td bgcolor="yellow">12PM</td>
+            <td>Skin Care</td>
+        </tr>
+
+
+
+        </table>
+
+        <br>
+        <br>
+
+        <a href="Index.html" id="Back">Back</a>
+    </center>
+</body>
+
+</html>
